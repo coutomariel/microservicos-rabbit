@@ -12,6 +12,6 @@ data class Order(
     val total: Double?,
     val email: String?,
     val status: Status? = Status.PROCESSING,
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    @field:JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     val createdAt: LocalDateTime = LocalDateTime.now()
 )

@@ -4,24 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c0329b-2b4d-4208-9a2c-023d404a7022" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/config/RabbitmqConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Order.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/OrderItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/enums/Status.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/listener/OrderListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/service/EmailService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-microservicos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/curso-microservicos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="93c0329b-2b4d-4208-9a2c-023d404a7022" name="Changes" comment="add processor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/OrderItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/OrderItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/listener/ProcessorListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/listener/ProcessorListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/service/ProcessorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/service/ProcessorService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/processor/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +47,12 @@
   "keyToString": {
     "Kotlin.NotifyApplicationKt.executor": "Run",
     "Kotlin.PedidosApiApplicationKt.executor": "Run",
+    "Kotlin.ProcessorApplicationKt.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ms-noticicacao",
+    "git-widget-placeholder": "ms-processor",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mariel/Development/workspace/udemy/curso-microservicos/notify/src/main/kotlin/br/com/coutomariel/orders/notify",
+    "last_opened_file_path": "/home/mariel/Development/workspace/udemy/curso-microservicos/processor/src/main/kotlin/br/com/coutomariel/orders/processor",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -68,19 +61,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor" />
       <recent name="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="br.com.coutomariel.orders.processor.repository" />
+      <recent name="br.com.coutomariel.orders.processor.service" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.coutomariel.orders.processor.listener" />
+      <recent name="br.com.coutomariel.orders.processor.service" />
       <recent name="br.com.coutomariel.orders.notify.config" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="br.com.coutomariel.orders.notify" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NotifyApplicationKt">
+  <component name="RunManager" selected="Kotlin.ProcessorApplicationKt">
     <configuration name="NotifyApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.coutomariel.orders.notify.NotifyApplicationKt" />
       <module name="notify" />
@@ -95,8 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProcessorApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.coutomariel.orders.processor.ProcessorApplicationKt" />
+      <module name="processor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ProcessorApplicationKt" />
         <item itemvalue="Kotlin.NotifyApplicationKt" />
         <item itemvalue="Kotlin.PedidosApiApplicationKt" />
       </list>
@@ -111,7 +119,20 @@
       <option name="presentableId" value="Default" />
       <updated>1731508588794</updated>
     </task>
+    <task id="LOCAL-00001" summary="add processor">
+      <option name="closed" value="true" />
+      <created>1732040302865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732040302865</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add processor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add processor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -120,6 +141,14 @@
           <url>file://$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/listener/OrderListener.kt</url>
           <line>16</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/service/ProcessorService.kt</url>
+          <line>30</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
