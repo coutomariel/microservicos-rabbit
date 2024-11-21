@@ -7,6 +7,9 @@
         <option value="$PROJECT_DIR$/pedidos-api/pom.xml" />
         <option value="$PROJECT_DIR$/notify/pom.xml" />
         <option value="$PROJECT_DIR$/processor/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-notification/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-orders-api/pom.xml" />
+        <option value="$PROJECT_DIR$/ms-processor/pom.xml" />
       </list>
     </option>
   </component>
