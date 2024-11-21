@@ -4,24 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93c0329b-2b4d-4208-9a2c-023d404a7022" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/config/RabbitmqConfig.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Order.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/OrderItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Product.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/enums/Status.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/listener/OrderListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/service/EmailService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="93c0329b-2b4d-4208-9a2c-023d404a7022" name="Changes" comment="add ms processor">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curso-microservicos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/curso-microservicos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pedidos-api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/NotifyApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/NotificationApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/config/RabbitmqConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/config/RabbitmqConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/OrderItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/entity/OrderItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/entity/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/entity/enums/Status.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/entity/enums/Status.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/listener/OrderListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/listener/OrderListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/service/EmailService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/service/EmailService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notify/src/test/kotlin/br/com/coutomariel/orders/notify/NotifyApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-notification/src/test/kotlin/br/com/coutomariel/orders/notify/NotificationAppTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/PedidosApiApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/OrdersApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/config/RabbitmqConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/config/RabbitmqConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/config/SpringDocOpenApiConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/config/SpringDocOpenApiConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/controller/OrderController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/controller/OrderController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/OrderItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/OrderItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/enums/Status.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/entity/enums/Status.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/kotlin/br/com/coutomariel/pedidosapi/service/OrderService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/kotlin/br/com/coutomariel/pedidosapi/service/OrderService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pedidos-api/src/test/kotlin/br/com/coutomariel/pedidosapi/PedidosApiApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-orders-api/src/test/kotlin/br/com/coutomariel/pedidosapi/OrdersAppTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/ProcessorApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/ProcessorApp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/config/RabbitmqConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/config/RabbitmqConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Order.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Order.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/OrderItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/OrderItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/enums/Status.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/entity/enums/Status.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/listener/ProcessorListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/listener/ProcessorListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/repository/OrderItemRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/repository/OrderItemRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/repository/OrderRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/repository/OrderRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/repository/ProductRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/repository/ProductRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor/service/ProcessorService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/service/ProcessorService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/processor/src/test/kotlin/br/com/coutomariel/orders/processor/ProcessorApplicationTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ms-processor/src/test/kotlin/br/com/coutomariel/orders/processor/ProcessorApplicationTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +93,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.NotificationAppKt (1).executor": "Run",
+    "Kotlin.NotificationAppKt.executor": "Run",
     "Kotlin.NotifyApplicationKt.executor": "Run",
     "Kotlin.PedidosApiApplicationKt.executor": "Run",
+    "Kotlin.ProcessorAppKt.executor": "Run",
+    "Kotlin.ProcessorApplicationKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "ms-noticicacao",
+    "git-widget-placeholder": "ms-processor",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mariel/Development/workspace/udemy/curso-microservicos/notify/src/main/kotlin/br/com/coutomariel/orders/notify",
+    "last_opened_file_path": "/home/mariel/Development/workspace/udemy/curso-microservicos/processor/src/main/kotlin/br/com/coutomariel/orders/processor",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -68,37 +112,59 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/processor/src/main/kotlin/br/com/coutomariel/orders/processor" />
       <recent name="$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="br.com.coutomariel.orders.processor.repository" />
+      <recent name="br.com.coutomariel.orders.processor.service" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.coutomariel.orders.processor.listener" />
+      <recent name="br.com.coutomariel.orders.processor.service" />
       <recent name="br.com.coutomariel.orders.notify.config" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="br.com.coutomariel.orders.notify" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.NotifyApplicationKt">
-    <configuration name="NotifyApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.coutomariel.orders.notify.NotifyApplicationKt" />
-      <module name="notify" />
+  <component name="RunManager" selected="Kotlin.ProcessorAppKt">
+    <configuration name="NotificationAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.coutomariel.orders.notify.NotificationAppKt" />
+      <module name="ms-notification" />
+      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PedidosApiApplicationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.coutomariel.pedidosapi.PedidosApiApplicationKt" />
-      <module name="pedidos-api" />
+    <configuration name="OrdersAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.coutomariel.pedidosapi.OrdersAppKt" />
+      <module name="ms-orders-api" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProcessorAppKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.coutomariel.orders.processor.ProcessorAppKt" />
+      <module name="ms-processor" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.OrdersAppKt" />
+      <item itemvalue="Kotlin.ProcessorAppKt" />
+      <item itemvalue="Kotlin.NotificationAppKt" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.NotifyApplicationKt" />
-        <item itemvalue="Kotlin.PedidosApiApplicationKt" />
+        <item itemvalue="Kotlin.ProcessorAppKt" />
+        <item itemvalue="Kotlin.NotificationAppKt" />
+        <item itemvalue="Kotlin.OrdersAppKt" />
+        <item itemvalue="Kotlin.NotificationAppKt" />
       </list>
     </recent_temporary>
   </component>
@@ -111,15 +177,45 @@
       <option name="presentableId" value="Default" />
       <updated>1731508588794</updated>
     </task>
+    <task id="LOCAL-00001" summary="add processor">
+      <option name="closed" value="true" />
+      <created>1732040302865</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732040302865</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add ms processor">
+      <option name="closed" value="true" />
+      <created>1732187722732</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732187722733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add processor" />
+    <MESSAGE value="add ms processor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ms processor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/notify/src/main/kotlin/br/com/coutomariel/orders/notify/listener/OrderListener.kt</url>
+          <url>file://$PROJECT_DIR$/ms-notification/src/main/kotlin/br/com/coutomariel/orders/notify/listener/OrderListener.kt</url>
           <line>16</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/ms-processor/src/main/kotlin/br/com/coutomariel/orders/processor/service/ProcessorService.kt</url>
+          <line>30</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

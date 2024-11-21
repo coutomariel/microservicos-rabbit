@@ -18,7 +18,24 @@ services:
     ports:
       - '1025:1025'
       - '8025:8025'
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: orders_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app_network
 
 volumes:
+  postgres_data:
   rabbitmq_data:
     driver: local
+
+networks:
+  app_network:
